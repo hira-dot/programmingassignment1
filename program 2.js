@@ -1,6 +1,6 @@
 // program 2: fibonnaci filter
 // hira shakeel
-const readlineSync = require('readline');
+const readlineSync = require('readline-sync');
 let n = Number(readlineSync.question("Enter number of Fibonacci terms to generate:")) // input
 let fib = [0,1] // defining fibonacci seq
 for (let i = 2; i < n; i++){
