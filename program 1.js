@@ -1,8 +1,8 @@
 // program 1: detect prime gaps
 // Hira Shakeel 
-const readlineSync = require('readline');
+const readlineSync = require('readline-sync');
 let n = Number(readlineSync.question("enter a number (<=1000)"));
-function isPromise(num) {
+function isPrime(num) {
     if (num < 2) return false;
     for (let i = 2; i < num; i++){
         if (num % i === 0) {
