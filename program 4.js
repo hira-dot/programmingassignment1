@@ -1,6 +1,6 @@
 // program 4: broken code debugger
 // hira shakeel
-const readlineSync = require('readline');
+const readlineSync = require('readline-sync');
 let start = Number(readlineSync.question("enter start number:")); // input must be a # instead of a string
 let end = Number(readlineSync.question("enter end number:")); // see above
 let count = 0;
