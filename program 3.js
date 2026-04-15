@@ -1,6 +1,6 @@
 // program 3 letter frequency + first repeat
 // hira shakeel
-const readlineSync = require('readline');
+const readlineSync = require('readline-sync');
 let str = readlineSync.question("Enter a string: ").tolowercase();
 let freq = {}; let firstRepeat = ""; // storage
 for (let i = 0; i < str.length; i++) {
