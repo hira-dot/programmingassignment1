@@ -35,6 +35,6 @@ for(let i = 0; i < gaps.length; i++){
     sum += gaps[i];
 }
 let avg = sum / gaps.length; //avg gap
-console.log("primes:", primes);
+console.log("program displays primes up to " + n + ": " + JSON.stringify(primes));
 console.log("the largest gap is " + maxGap + ", between " + primes[index] + " and " + primes[index + 1]);
 console.log("the average gap is " + avg.toFixed(2)); //output
